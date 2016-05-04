@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ainhoa.materialdesing.MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:id="@+id/linLayout2"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            >
+            <ImageButton
+                android:id="@+id/euro2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/coint2"/>
+
+            <TextView
+                android:id="@+id/eurodato2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#FF251B1B"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_action_bar_stacked_max_height" />
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/linLayout1"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        >
+        <ImageButton
+            android:id="@+id/euro1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/coint1"/>
+
+        <TextView
+            android:id="@+id/eurodato1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FF251B1B"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_action_bar_stacked_max_height" />
+
+    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    <RelativeLayout
+        android:id="@+id/linLayout050"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/euro050"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/coint050"/>
+
+        <TextView
+            android:id="@+id/eurodato050"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FF251B1B"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_action_bar_stacked_max_height" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linLayout020"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/euro020"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/coint020"/>
+
+        <TextView
+            android:id="@+id/eurodato020"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FF251B1B"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_action_bar_stacked_max_height" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/linLayout010"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/euro010"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/coint010"/>
+
+        <TextView
+            android:id="@+id/eurodato010"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FF251B1B"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_action_bar_stacked_max_height" />
+
+    </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/linLayoutmonedero"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/monedero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/monedero"/>
+
+        <TextView
+            android:id="@+id/datomonederolayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_alert_dialog_button_bar_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="Monedero" />
+
+    </RelativeLayout>
+
+</LinearLayout>
